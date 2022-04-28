@@ -1,6 +1,7 @@
 /** Lets Connect to Moralis server */
-const serverUrl = "INSERT SERVER_URL";
-const appId = "INSERT APP_ID";
+/** Insert SERVER_URL and APP_ID */
+const serverUrl = "INSERT YOUR VALUE";
+const appId = "INSERT YOUR VALUE";
 Moralis.start({ serverUrl, appId });
 let user = Moralis.User.current();
 
