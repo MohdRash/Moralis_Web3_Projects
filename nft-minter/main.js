@@ -1,4 +1,4 @@
-/** Connect to Moralis server */
+/** Lets Connect to Moralis server */
 const serverUrl = "INSERT SERVER_URL";
 const appId = "INSERT APP_ID";
 Moralis.start({ serverUrl, appId });
